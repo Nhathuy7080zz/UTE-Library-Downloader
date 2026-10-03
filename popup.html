@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Dlib PDF Link Finder</h1>
+  <p id="status" class="hint">Đang lấy link...</p>
+  <div id="box" hidden>
+    <label for="name">Tên file (sửa được)</label>
+    <input id="name" type="text">
+    <div class="url" id="url"></div>
+    <div class="row">
+      <button id="dl" class="primary">Tải xuống</button>
+      <button id="open">Mở tab mới</button>
+      <button id="copy">Copy link</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
